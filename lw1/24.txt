@@ -1,0 +1,10 @@
+program Greetings;
+var
+  Name: string;
+begin
+  writeln('Hello! What is your name?');{(*{{(*(*This  
+  is a Comment*)*)}}*)}
+  readln(Name);
+  writeln('Hi, ', Name, '!');(*This is 
+  a Comment *) 
+end.
